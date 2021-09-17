@@ -229,3 +229,94 @@ nav {
 .social-list li a:hover {
   color: #34c6d3;
 }
+
+/* pricing container styles */
+.pricing-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+}
+.pricing-box {
+  border: 3px solid #34c6d3;
+  padding: 50px 0;
+  margin: 40px 0;
+  text-align: center;
+}
+.pricing-title {
+  background-color: #34c6d3;
+  color: #fff;
+  display: inline-block;
+  padding: 7px 15px;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  margin: 30px auto;
+}
+.pricing-value {
+  font-size: 60px;
+  font-weight: 700;
+  color: #41464b;
+  margin: 0;
+}
+.pricing-spec {
+  margin: 20px 0 60px 0;
+}
+.pricing-spec p {
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.pricing-box-lg {
+  padding: 90px 0;
+  margin: 0;
+  background-color: #34c6d3;
+}
+.pricing-box-lg .pricing-title {
+  color: #34c6d3;
+  background-color: #fff;
+}
+.pricing-box-lg .pricing-spec p {
+  color: #fff;
+}
+
+/* stats container styles */
+#stats {
+  background: url(/images/bg-stats.jpg);
+  min-height: 600px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#stats .section-title h3 {
+  padding-top: 50px;
+  color: #fff;
+}
+.stats-overlay {
+  background: rgba(0, 0, 0, 0.8);
+  min-height: 600px;
+}
+.stats-container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  margin-top: 150px;
+}
+.stats-item {
+  text-align: center;
+}
+.stats-item i {
+  color: #34c6d3;
+}
+.stats-item h2 {
+  color: #fff;
+  font-size: 35px;
+  font-weight: 700;
+  margin-top: 15px;
+  margin-bottom: 1px;
+}
+
+.stats-item p {
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 300;
+  margin-top: 0;
+}
